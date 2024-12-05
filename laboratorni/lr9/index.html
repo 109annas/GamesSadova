@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <title>BlackJack Sadova</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="script.js"></script>
+		<link rel="icon" href="./css/media/icon.png" type="image/png">
+	</head>
+	<body>
+		<div id="base">
+			<h1>Гра 21</h1>
+			<h2 id="startN"></h2>
+			<div>
+				<h3 id="playerCardsTitle"></h3>
+				<div id="youCards"></div>
+				<p id="you">Очки: 0</p>
+			</div>
+			<div>
+				<h3>Карти комп'ютера:</h3>
+				<div id="compCards"></div>
+				<p id="comp">Очки: 0</p>
+			</div>
+			<p id="result"></p>
+			<button id="take" onclick="takeF()">Взяти карту</button>
+			<button id="endB" onclick="endTurn()">Закінчити хід</button>
+			<button id="restartB" onclick="restartKazino()" style="display: none;">Почати знову</button>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
