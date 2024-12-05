@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "krutoy";
+    src: url("./370-font.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: "krutoy", sans-serif;
+    background-image: url("./media/3480354.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.base{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100%;
+    flex-direction: column;
+}
+.container {
+    width: 38%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(222, 6, 100, 0.936);
+    border-radius: 40px;
+    border: 5px solid rgba(16, 155, 155, 0.812);
+    padding: 0.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+p{
+    background-color: rgb(24, 149, 160);
+    border-radius: 6px;
+}
+img{
+    width:30%;
+}
+@media (max-width: 768px) {
+    .container {
+        width: 60%;
+    }
+    img{
+        width:60%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+    .container {
+        width: 60%;
+    }
+    img{
+        width:40%;
+    }
+}
