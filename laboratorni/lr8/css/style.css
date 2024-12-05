@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "krutoy";
+    src: url("./370-font.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url("./media/6057462.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 0, 0); 
+    font-size: 20px;
+    font-family: "krutoy", sans-serif;
+}
+
+.base {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 3%;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.864);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.277);
+    border-radius: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#konets {
+    margin-bottom: 20px;
+}
+
+button {
+    color: #ffffff;
+    cursor: pointer;    
+    margin: 2%;
+    padding: 2% 4%;
+    background-color: rgba(175, 7, 208, 0.847);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: "krutoy", sans-serif;
+}
+
+button:hover {
+    background-color:rgba(127, 10, 150, 0.847);
+}
+
+.two, .one {
+    margin-top: 20px;
+}
+
+.two p, .one p {
+    color: rgba(100, 65, 13, 0.847);
+    margin: 5px 0;
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#my, #notmy{
+    margin: 5%;
+    padding: 30px;
+    border-radius: 40px;
+    background-color:rgba(244, 214, 23, 0.847);
+    font-size: 22px;
+    border:rgba(100, 65, 13, 0.578);
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.277);
+}
+#sadImage{
+    width: 100px; 
+    height: 100px;
+    display: none;
+}
+#happyImage{
+    width: 135px; 
+    height: 100px;
+    display: none;
+}
+
+
+@media (max-width: 1300px) {
+    .base {
+        width: 78%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #my, #notmy {
+        font-size: 18px;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 1% 3%;
+    }
+
+    #sadImage, #happyImage {
+        height: 100px;
+    }
+
+    .two p, .one p {
+        font-size: 16px;
+    }
+}
